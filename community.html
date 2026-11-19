@@ -1,0 +1,137 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <title>LUMEN - Communities</title>
+
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/community.css">
+
+</head>
+
+<body>
+
+    <!-- TOPBAR -->
+
+    <header class="topbar">
+
+        <a class="logo" href="home.html">LUMEN</a>
+
+        <a class="search-box" href="under-construction.html">
+            <img src="icons/search.png" alt="">
+            <span>Search questions, topics, people...</span>
+        </a>
+
+        <a class="login-btn" href="login.html">
+            Log in / Sign up
+        </a>
+
+    </header>
+
+
+    <!-- MAIN LAYOUT -->
+
+    <div class="layout">
+
+        <!-- SIDEBAR -->
+
+        <nav class="sidebar">
+
+            <a class="menu-item" href="home.html">
+                <img src="icons/home.png" alt="">
+                <span>Home</span>
+            </a>
+
+            <a class="menu-item" href="community.html">
+                <img src="icons/community.png" alt="">
+                <span>Community</span>
+            </a>
+
+            <a class="menu-item" href="profile.html">
+                <img src="icons/profile.png" alt="">
+                <span>Profile</span>
+            </a>
+
+            <a class="menu-item" href="under-construction.html">
+                <img src="icons/message.png" alt="">
+                <span>Message</span>
+            </a>
+
+            <a class="menu-item setting"
+               href="under-construction.html">
+                <img src="icons/setting.png" alt="">
+                <span>Setting</span>
+            </a>
+
+        </nav>
+
+
+        <!-- COMMUNITY DIRECTORY -->
+
+        <main class="feed-area">
+
+            <div class="communities-page">
+
+                <div class="communities-heading">
+
+                    <h2>Explore Communities</h2>
+
+                    <p>
+                        Find your interests, connect with learners
+                        and share your skills.
+                    </p>
+
+                </div>
+
+
+                <!-- SEARCH -->
+
+                <div class="communities-search">
+
+                    <input
+                        type="text"
+                        id="communitySearch"
+                        placeholder="Search communities..."
+                    >
+
+                </div>
+
+
+                <!-- COMMUNITY HEADING -->
+
+                <div class="communities-subheading">
+
+                    <h3>All Communities</h3>
+
+                    <span id="communityCount">
+                        0 Communities
+                    </span>
+
+                </div>
+
+
+                <!-- COMMUNITY CARDS -->
+
+                <div id="communitiesList"
+                     class="communities-list">
+
+                    <p>Loading communities...</p>
+
+                </div>
+
+            </div>
+
+        </main>
+
+    </div>
+
+
+    <script src="js/community.js"></script>
+
+</body>
+
+</html>

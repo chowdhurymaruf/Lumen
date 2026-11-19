@@ -1,0 +1,30 @@
+[
+  {
+    "name": "Rahim Ahmed",
+    "email": "a@gmail.com",
+    "password": "1234",
+    "avatar": "avatars/user1.png",
+    "rating": 4.8,
+    "job_title": "Software Engineer",
+    "department": "Engineering",
+    "organization": "Tech Solutions Ltd",
+    "location": "Dhaka, Bangladesh",
+    "phone": "01700000000",
+    "working_on": ["LUMEN skill sharing platform", "Online judge system"],
+    "skills": ["C++", "Java", "Python", "C#"]
+  },
+  {
+    "name": "Emily Watson",
+    "email": "b@gmail.com",
+    "password": "5678",
+    "avatar": "avatars/user2.png",
+    "rating": 4.6,
+    "job_title": "Frontend Developer",
+    "department": "Design",
+    "organization": "Pixel Labs",
+    "location": "London, UK",
+    "phone": "01800000000",
+    "working_on": ["Portfolio website redesign"],
+    "skills": ["HTML", "CSS", "JavaScript"]
+  }
+]

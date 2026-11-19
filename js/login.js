@@ -14,6 +14,20 @@ const message = document.getElementById("message");
 
 let loginMode = "user";
 
+// Predefined user accounts
+let users = [
+    {
+        email: "student@gmail.com",
+        password: "12345",
+        role: "Student"
+    },
+    {
+        email: "teacher@gmail.com",
+        password: "teacher123",
+        role: "Teacher"
+    }
+];
+
 // Switch between User and Admin login
 adminButton.addEventListener("click", function () {
 
@@ -62,11 +76,35 @@ loginForm.addEventListener("submit", function (event) {
         message.innerText =
             "Admin form validated. Authentication is not connected yet.";
 
+} else {
+
+    let email = document.getElementById("email").value;
+    let password = document.getElementById("password").value;
+
+    let matchedUser = null;
+
+    // Check user credentials
+    for (let i = 0; i < users.length; i++) {
+
+        if (users[i].email === email &&
+            users[i].password === password) {
+
+            matchedUser = users[i];
+            break;
+        }
+    }
+
+    // Check login result
+    if (matchedUser !== null) {
+
+        window.location.href = "home.html";
+
     } else {
 
         message.innerText =
-            "User form validated. Authentication is not connected yet.";
+            "Incorrect email or password!";
 
     }
 
+}
 });
