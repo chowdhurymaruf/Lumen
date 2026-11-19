@@ -1,0 +1,171 @@
+
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <title>LUMEN - Community Profile</title>
+
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/community_profile.css">
+
+</head>
+
+<body>
+
+    <!-- TOPBAR -->
+
+    <header class="topbar">
+
+        <a class="logo" href="home.html">LUMEN</a>
+
+        <a class="search-box" href="under-construction.html">
+            <img src="icons/search.png" alt="">
+            <span>Search questions, topics, people...</span>
+        </a>
+
+        <a class="login-btn" href="login.html">
+            Log in / Sign up
+        </a>
+
+    </header>
+
+
+    <!-- MAIN LAYOUT -->
+
+    <div class="layout">
+
+        <!-- SIDEBAR -->
+
+        <nav class="sidebar">
+
+            <a class="menu-item" href="home.html">
+                <img src="icons/home.png" alt="">
+                <span>Home</span>
+            </a>
+
+            <a class="menu-item active" href="community.html">
+                <img src="icons/community.png" alt="">
+                <span>Community</span>
+            </a>
+
+            <a class="menu-item" href="profile.html">
+                <img src="icons/profile.png" alt="">
+                <span>Profile</span>
+            </a>
+
+            <a class="menu-item" href="under-construction.html">
+                <img src="icons/message.png" alt="">
+                <span>Message</span>
+            </a>
+
+            <a class="menu-item setting"
+               href="under-construction.html">
+                <img src="icons/setting.png" alt="">
+                <span>Setting</span>
+            </a>
+
+        </nav>
+
+
+        <!-- INDIVIDUAL COMMUNITY -->
+
+        <main class="feed-area">
+
+            <div class="lumen-community-page">
+
+
+                <!-- BACK TO COMMUNITIES -->
+
+                <a class="back-community" href="community.html">
+                    ← Back to Communities
+                </a>
+
+
+                <!-- COMMUNITY INFORMATION -->
+
+                <div class="community-header">
+
+                    <div class="community-info">
+
+                        <div class="community-logo"
+                             id="communityLogo">
+                            Py
+                        </div>
+
+
+                        <div class="community-details">
+
+                            <h2 id="communityName">
+                                Loading...
+                            </h2>
+
+                            <p id="communityCategory"></p>
+
+                            <p id="communityMembers"></p>
+
+                        </div>
+
+                    </div>
+
+
+                    <button id="joinButton" class="join-btn">
+                        Join Community
+                    </button>
+
+
+                    <p class="community-description"
+                       id="communityDescription">
+                    </p>
+
+                </div>
+
+
+                <!-- POST HEADING -->
+
+                <div class="community-nav">
+
+                    <h3>Learning Requests</h3>
+
+                    <span id="postCount">0 Posts</span>
+
+                </div>
+
+
+                <!-- SEARCH POSTS -->
+
+                <div class="community-search">
+
+                    <input
+                        type="text"
+                        id="searchPosts"
+                        placeholder="Search learning requests..."
+                    >
+
+                </div>
+
+
+                <!-- POST CONTAINER -->
+
+                <div id="communityPosts"
+                     class="community-posts">
+
+                    <p>Loading posts...</p>
+
+                </div>
+
+            </div>
+
+        </main>
+
+    </div>
+
+
+    <script src="js/community_profile.js"></script>
+
+</body>
+
+</html>

@@ -1,0 +1,164 @@
+
+{
+    "communities": [
+
+        {
+            "id": "python",
+            "name": "Python Programming",
+            "logoText": "Py",
+            "logoImage": "icons/python.jpg",
+            "category": "Programming and Technology",
+            "members": 1250,
+
+            "description": "A community for Python learners and teachers to share knowledge, solve problems and connect with fellow programmers.",
+
+            "posts": [
+
+                {
+                    "id": 101,
+                    "author": "Rahim Ahmed",
+                    "avatar": "",
+                    "time": "15 minutes ago",
+
+                    "title": "Need help understanding Python OOP",
+
+                    "description": "I'm struggling with classes, objects and inheritance. Looking for someone who can guide me through practical examples.",
+
+                    "tags": [
+                        "Python",
+                        "OOP",
+                        "Beginner"
+                    ],
+
+                    "responses": 2
+                },
+
+                {
+                    "id": 102,
+                    "author": "Nadia Islam",
+                    "avatar": "",
+                    "time": "1 hour ago",
+
+                    "title": "Looking for a Python study partner",
+
+                    "description": "I want to practise Python programming regularly with someone who is also learning.",
+
+                    "tags": [
+                        "Python",
+                        "Study Partner"
+                    ],
+
+                    "responses": 0
+                }
+
+            ]
+        },
+
+
+        {
+            "id": "java",
+            "name": "Java Programming",
+            "logoText": "Ja",
+            "logoImage": "icons/java.jpg",
+            "category": "Programming and Software Development",
+            "members": 890,
+
+            "description": "Learn Java programming, object-oriented programming, application development and problem-solving with other learners.",
+
+            "posts": [
+
+                {
+                    "id": 201,
+                    "author": "Emily Watson",
+                    "avatar": "",
+                    "time": "30 minutes ago",
+
+                    "title": "Need help understanding Java OOP",
+
+                    "description": "I'm having difficulty understanding inheritance, polymorphism and encapsulation in Java.",
+
+                    "tags": [
+                        "Java",
+                        "OOP",
+                        "Beginner"
+                    ],
+
+                    "responses": 1
+                },
+
+                {
+                    "id": 202,
+                    "author": "Hasan Mahmud",
+                    "avatar": "",
+                    "time": "2 hours ago",
+
+                    "title": "Looking for a Java programming mentor",
+
+                    "description": "I know the basics of Java and want to improve my programming skills through practical projects.",
+
+                    "tags": [
+                        "Java",
+                        "Mentoring"
+                    ],
+
+                    "responses": 3
+                }
+
+            ]
+        },
+
+
+        {
+            "id": "cpp",
+            "name": "C++ Programming",
+            "logoText": "C++",
+            "logoImage": "icons/cpp.jpg",
+            "category": "Programming and Algorithms",
+            "members": 650,
+
+            "description": "Explore C++ programming, data structures, algorithms, pointers and object-oriented programming.",
+
+            "posts": [
+
+                {
+                    "id": 301,
+                    "author": "Sophia Williams",
+                    "avatar": "",
+                    "time": "1 hour ago",
+
+                    "title": "Need help understanding C++ pointers",
+
+                    "description": "Pointers and dynamic memory allocation are confusing me. Looking for someone who can explain these topics with examples.",
+
+                    "tags": [
+                        "C++",
+                        "Pointers",
+                        "Intermediate"
+                    ],
+
+                    "responses": 2
+                },
+
+                {
+                    "id": 302,
+                    "author": "Arif Hossain",
+                    "avatar": "",
+                    "time": "4 hours ago",
+
+                    "title": "Looking for help with C++ Data Structures",
+
+                    "description": "I want to understand linked lists, stacks and queues better. Looking for a teacher who can guide me.",
+
+                    "tags": [
+                        "C++",
+                        "Data Structures"
+                    ],
+
+                    "responses": 1
+                }
+
+            ]
+        }
+
+    ]
+}
