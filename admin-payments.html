@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Lumen | Payment records</title>
+  <link rel="icon" type="image/png" href="assets/images/lumen-logo.png">
+  <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+  <header class="topbar">
+    <button type="button" class="brand" id="brand"><img class="brand-logo" src="assets/images/lumen-logo.png" alt="" width="56" height="56"> Lumen</button>
+    <nav class="public-nav" id="public-nav" aria-label="Public navigation"><a href="index.html">Home</a><a href="login.html">Log in</a><a href="registration.html">Create account</a></nav>
+    <div class="actions header-actions">
+      <span id="account-label">Skill sharing</span>
+      <button type="button" id="theme" class="secondary">Dark mode</button>
+      <button type="button" id="menu" aria-controls="sidebar" aria-expanded="false" class="secondary menu-button">Menu</button>
+    </div>
+  </header>
+  <div id="layout" class="layout">
+    <aside id="sidebar" class="sidebar hidden">
+      <nav aria-label="Main navigation">
+        <div id="member-nav">
+          <p class="nav-heading">Workspace</p>
+          <a id="nav-dashboard" class="nav-button" href="dashboard.html">Dashboard</a>
+          <a id="nav-communities" class="nav-button" href="communities.html">Communities</a>
+          <div id="learning-nav">
+            <a id="nav-teachers" class="nav-button" href="teachers.html">Browse teachers</a>
+            <a id="nav-requests" class="nav-button" href="learning-requests.html">My requests</a>
+            <a id="nav-reviews" class="nav-button" href="reviews.html">Teacher reviews</a>
+          </div>
+          <div id="teaching-nav">
+            <a id="nav-teaching" class="nav-button" href="teaching-dashboard.html">Teaching dashboard</a>
+          </div>
+          <a id="nav-sessions" class="nav-button" href="sessions.html">Sessions</a>
+          <a id="nav-payments" class="nav-button" href="payment-history.html">Payment history</a>
+          <button type="button" id="switch-mode" class="mode-button">Switch to Teaching Mode</button>
+        </div>
+        <div id="admin-nav">
+          <p class="nav-heading">Administration</p>
+          <a id="nav-admin" class="nav-button" href="admin-dashboard.html">Dashboard</a>
+          <a id="nav-admin-users" class="nav-button" href="admin-users.html">Users</a>
+          <a id="nav-admin-communities" class="nav-button" href="admin-communities.html">Communities</a>
+          <a id="nav-admin-reports" class="nav-button" href="admin-reports.html">Reports</a>
+          <a id="nav-admin-payments" class="nav-button active" href="admin-payments.html" aria-current="page">Payment records</a>
+        </div>
+        <div id="account-nav">
+          <p class="nav-heading">Account</p>
+          <a id="nav-profile" class="nav-button" href="profile.html">Profile</a>
+          <a id="nav-settings" class="nav-button" href="settings.html">Settings</a>
+        </div>
+        <button type="button" id="logout" class="nav-button logout-button">Log out</button>
+      </nav>
+    </aside>
+    <main id="content">
+      <p id="storage-notice" class="notice hidden" role="alert">This browser blocks tab storage. Open Lumen from a local server as described in README.md.</p>
+      <noscript><p class="notice">Enable JavaScript to use Lumen.</p></noscript>
+      <section id="admin-payments" class="view hidden">
+        <div class="page-intro">
+          <h1>Payment records</h1>
+          <p>Review transactions and resolve payment disputes.</p>
+        </div>
+        <div class="table-wrap">
+          <table>
+            <thead><tr><th scope="col">Reference</th><th scope="col">Lesson</th><th scope="col">Amount</th><th scope="col">Status</th><th scope="col">Action</th></tr></thead>
+            <tbody id="admin-payment-rows"></tbody>
+          </table>
+        </div>
+      </section>
+      <footer><div class="footer-inner"><span><strong>Lumen</strong> · Learn from your peers. Share your skills.</span><span>AIUB · CSC 3215</span></div></footer>
+    </main>
+  </div>
+  <script src="js/data.js"></script>
+  <script src="js/storage.js"></script>
+  <script src="js/shared.js"></script>
+  <script src="js/account.js"></script>
+  <script src="js/learning.js"></script>
+  <script src="js/teaching.js"></script>
+  <script src="js/admin.js"></script>
+  <script src="js/app.js"></script>
+</body>
+</html>
