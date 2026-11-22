@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>LUMEN - Profile</title>
+  <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+
+  <header class="topbar">
+    <a class="logo" href="home.html">LUMEN</a>
+
+    <a class="search-box" href="under-construction.html">
+      <img src="icons/search.png" alt="">
+      <span>Search questions, topics, people...</span>
+    </a>
+
+    <a class="login-btn" href="login.html">Log in / Sign up</a>
+  </header>
+
+  <div class="layout">
+    <nav class="sidebar">
+      <a class="menu-item" href="home.html"><img src="icons/home.png" alt=""><span>Home</span></a>
+      <a class="menu-item" href="community.html"><img src="icons/community.png" alt=""><span>Community</span></a>
+      <a class="menu-item active" href="profile.html"><img src="icons/profile.png" alt=""><span>Profile</span></a>
+      <a class="menu-item" href="under-construction.html"><img src="icons/message.png" alt=""><span>Message</span></a>
+      <a class="menu-item setting" href="under-construction.html"><img src="icons/setting.png" alt=""><span>Setting</span></a>
+    </nav>
+
+    <main class="profile-main">
+      <div class="cover"></div>
+
+      <div class="profile-body">
+
+        <aside class="profile-side">
+          <img class="profile-avatar" id="avatar" alt="">
+          <h2 class="profile-name" id="name"></h2>
+          <span class="rating" id="rating"></span>
+
+          <div class="info-card">
+            <h4 class="info-heading">ABOUT</h4>
+            <div class="info-row"><img src="icons/job.png" alt=""><span id="job"></span></div>
+            <div class="info-row"><img src="icons/department.png" alt=""><span id="department"></span></div>
+            <div class="info-row"><img src="icons/organization.png" alt=""><span id="organization"></span></div>
+            <div class="info-row"><img src="icons/location.png" alt=""><span id="location"></span></div>
+
+            <h4 class="info-heading">CONTACT</h4>
+            <div class="info-row"><img src="icons/email.png" alt=""><span id="email"></span></div>
+            <div class="info-row"><img src="icons/phone.png" alt=""><span id="phone"></span></div>
+
+            <h4 class="info-heading">TEAMS</h4>
+            <a class="info-row" href="under-construction.html"><img src="icons/team.png" alt=""><span>Create a team</span></a>
+
+            <a class="payment-btn" href="under-construction.html">Payment History</a>
+          </div>
+        </aside>
+
+        <section class="profile-content">
+          <div class="box">
+            <h3 class="box-title">Working on</h3>
+            <div id="working"></div>
+          </div>
+
+          <div class="box">
+            <h3 class="box-title">Skill</h3>
+            <div id="skills"></div>
+          </div>
+        </section>
+
+      </div>
+    </main>
+  </div>
+
+  <script src="js/profile.js"></script>
+</body>
+</html>
