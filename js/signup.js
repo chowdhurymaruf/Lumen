@@ -24,7 +24,7 @@ document.getElementById("registrationForm")
         document.getElementById("message").innerHTML =
         "Registration Successful!";
 
-        alert("Welcome to Learnify.ai!");
+        alert("Welcome to Lumen !");
 
         // Clear the form
         document.getElementById("registrationForm").reset();
